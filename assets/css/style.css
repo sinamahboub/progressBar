@@ -1,0 +1,46 @@
+/* -------------------------------------------------------------------------- */
+/*                                 sinamahboub                                */
+/* -------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap");
+
+body {
+  font-family: "Vazirmatn", sans-serif !important;
+  background-color: #807b7b !important;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+#progressName {
+  color: var(--nameColor);
+}
+
+.progressBack {
+  background-color: var(--backColor);
+  width: 200px;
+  height: 15px;
+  border: 2px solid var(--borderColor);
+  border-radius: 12px;
+}
+
+.progressFront {
+  background-color: var(--frontColor);
+  width: var(--fill);
+  height: 15px;
+  border-radius: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 sinamahboub                                */
+/* -------------------------------------------------------------------------- */
